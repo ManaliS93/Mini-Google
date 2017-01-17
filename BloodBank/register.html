@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blood Bank Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="winmarkltd-BootstrapFormHelpers-d4201db/js/bootstrap-formhelpers-states.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="197">
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="#">The Blood Bank</a></li>
+        <li><a id="Menu1" href="#">About Us</a></li>
+        <li><a id="Menu1" href="#">Be a Doner</a></li>
+        <li><a id="Menu1" href="#">Camps</a></li>
+        <!--  <li style="float:right;margin-left:80%;"><a href="#">Sign In</a></li>-->
+
+    </ul>
+    <button id="signin" type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal">Sign In</button>
+
+
+</nav>
+
+<form>
+
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter Name">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+    <button id="signin1"type="submit" class="btn btn-default">Submit</button>
+    <button id="signin1" type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+</form>
+
+</body>
+</html>

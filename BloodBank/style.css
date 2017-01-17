@@ -1,0 +1,116 @@
+body {
+    position: relative;
+    background-color: whitesmoke;
+    width:100%;
+    overflow-x:hidden;
+}
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+    background-color: #ff4d4d;
+
+}
+.nav{
+    height:20%;
+
+
+}
+#Menu1{
+    color:white;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+#signin{
+    margin-top: -5%;
+    margin-left: 85%;
+    z-index: 10;
+    color:#ff4d4d;
+    width:12%;
+    background-color:white ;
+
+}
+#signin1{
+    background-color: #ff4d4d;
+    color:white;
+}
+#myModal{
+
+
+}
+#titleDrive{
+    font-size: 18px;
+    margin-top:3%;
+    text-align: center;
+    color:white;
+    background:#ff4d4d;
+
+}
+#left-header{
+    font-size: 18px;
+    margin-left:2%;
+    margin-top:3%;
+    text-align: center;
+}
+#links{
+
+    font-size: 16px;
+    margin-left:2%;
+    margin-top:3%;
+
+}
+#girl{
+    width:90%;
+    align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circle{
+    background-color:lavender;
+    border-radius: 150px;
+    color: black;
+    display: inline-block;
+    height: 150px;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0 15px;
+    vertical-align: middle;
+    width: 150px;
+    margin:4% 8%8%4%;
+    text-align: center;
+}
+#event-container{
+    background-color: white;
+
+
+}
+#event-info{
+    z-index: 4;
+    text-align: center;
+    margin-left: 18%;
+
+}
+#event-button{
+    width:33%;
+    height:2.5%;
+    font-size: 12px;
+    background-color: #ff4d4d;
+}
+#view-more{
+    margin-top: auto;
+}
+.modal-header{
+    background-color:#ff4d4d ;
+    color:white;
+}
+#modalBorder{
+    background-color: #f5f5f0;
+}
